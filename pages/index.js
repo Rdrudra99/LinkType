@@ -7,31 +7,12 @@ import Footer from '../components/Footer'
 import Box from '../components/SocialBox'
 import Projects from '../components/Project'
 
-// import useSWR from 'swr';
-
-
-// const fetcher = (url) => fetch(url).then((res) => res.json());
-// console.log('was ' + fetcher)
-
-// export 
-
-
-// export async function getStaticProps() {
-//   const filePath = path.join(process.cwd(), '/userData.json', 'utf8');
-//   const jsonData = await fs.readFile(filePath);
-//   const objectData = JSON.parse(jsonData);
-//   console.log('data'+objectData);
-
-//   return {
-//     props: objectData
-//   }
-// }
-
 
 
 export default function Home() {
   
 
+  
   if (typeof window === 'object') {
     //ANCHOR - CODE TO BE MODIFIED LATTER AFTER I GET DATA🐳
     let red = "#FF5733";

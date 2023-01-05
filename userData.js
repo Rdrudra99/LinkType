@@ -1,4 +1,4 @@
-{
+const userdata = {
     "profile": {
         "name": "wastik",
         "bio": "this is me, I am a developer",
@@ -53,3 +53,4 @@
 }
 
 
+export default userdata;
