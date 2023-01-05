@@ -1,11 +1,11 @@
 import React from 'react'
 // React Icons🐳
-import {FaDocker,FaSass,FaCss3Alt,FaPython,FaJava,FaReact} from 'react-icons/Fa';
+import {FaDocker,FaSass,FaCss3Alt,FaPython,FaGitAlt,FaReact} from 'react-icons/Fa';
 import { ListFormat } from 'typescript';
 
 
 const Skills = () => {
-  const icons=[<FaJava/>,<FaSass/>,<FaPython/>, <FaReact/>,<FaCss3Alt/>,<FaDocker/>];
+  const icons=[<FaGitAlt/>,<FaSass/>,<FaPython/>, <FaReact/>,<FaCss3Alt/>,<FaDocker/>];
   const itemList = [] ;
  
   

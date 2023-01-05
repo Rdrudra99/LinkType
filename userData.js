@@ -9,19 +9,19 @@ const userdata = {
         "links": [
             {
                 "name": "Youtube",
-                "link": "https://youtube"
+                "link": "https://www.youtube.com/"
             },
             {
                 "name": "Instagram",
-                "link": "https://Instagram"
+                "link": "https://Instagram.com"
             },
             {
                 "name": "LinkedIn",
-                "link": "https://Linkedin"
+                "link": "https://Linkedin.com"
             },
             {
                 "name": "Github",
-                "link": "https://github"
+                "link": "https://github.com"
             }
         ],
         "bgcolor": "black",

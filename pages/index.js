@@ -6,6 +6,7 @@ import Skills from '../components/Skills'
 import Footer from '../components/Footer'
 import Box from '../components/SocialBox'
 import Projects from '../components/Project'
+import SocialBox from '../components/SocialBox'
 
 
 
@@ -35,15 +36,11 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <div className='text-center'>
-        
         <Header />
         <Skills />
-        <Box />
-        <Projects />
+        <SocialBox/>
         <Footer />
       </div>
-
-
     </div>
   )
 };

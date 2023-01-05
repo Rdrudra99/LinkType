@@ -1,276 +1,63 @@
 import React from 'react'
 import Link from 'next/link'
 import { FaInstagramSquare } from 'react-icons/Fa';
-/**============================================
- *               CODE FOR BOX SHAPE
- *=============================================**/ 
+import userdata from '../userData';
 
-// if (typeof window === 'object') {
-
-//   let shapes = ["0rem", "20rem", "30rem" ,"40rem" ];
-
-// for (let index = 0; index < shapes.length; index++) {
-//   let changeshape = (value) => {
-//   let card = document.querySelector(".card");
-//   card.style.borderRadius = shapes[1];
-// }
-// changeshape(); 
-// }
-// let changeshape = (value) => {
-//     let card = document.querySelector('.card');
-//     card.style.borderRadius = shapes[1];
-//   }
-//   changeshape(); 
-  
-// }
+// if (typeof window === 'object') {}
 
 /**============================================
  *               CODE FOR DYNAMIC BOX
  *=============================================**/
-const Box = () => {
-  const SocialIcons=["FaceBook","Instagram","Linkedin","Twitter","Reddit"];
-  const Social = [] ;
-  SocialIcons.forEach((item,index) => {
-    Social.push(
-      <div className="card bg-blue-400 mb-5 -lg drop-shadow-2xl h-12 text-white flex justify-center items-center rounded-full">
-      <a href="https://www.linkedin.com/in/rudra99/" className='text-md font-semibold tracking-widest' key={index}>{item}</a>
-      </div>
-      )
-  });
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
-
+const SocialBox = () => {
   return (
-      <div className='cardbody'>
-        <div className='ml-5 mr-5 md:mr-52 md:ml-52 md:pb-5'>
-        {Social}
-        </div> 
-      </div>  
+    <div className='cardbody'>
+    <div className='ml-5 mr-5 md:mr-52 md:ml-52 md:pb-5'>
+    
+    {
+      userdata.container.links.map((data)=>{
+          return(
+            <div className='card bg-blue-400 mb-5 -lg drop-shadow-2xl h-12 text-white flex justify-center items-center rounded-full'>
+              <a href={data.link} className='text-md font-semibold tracking-widest'>{data.name}</a>
+            </div>
+          )
+      })
+    }
+    
+    </div>
+    </div>
+
   )
 }
 
-export default Box;
+export default SocialBox;
+
+
+
+
+// export default Box;
+
+// const Box = () => {
+//   const SocialIcons=[""];
+//   for (let i = 0; i < SocialIcons.length; z++) {
+//     const element = array[index];
+    
+//   }
+//   const Social = [] ;
+//   SocialIcons.forEach((item,index) => {
+//     Social.push(
+//       <div className="card bg-blue-400 mb-5 -lg drop-shadow-2xl h-12 text-white flex justify-center items-center rounded-full">
+//       <a href="{container.link.name}" className='text-md font-semibold tracking-widest' key={index}>{item}</a>
+//       </div>
+//       )
+//   });
+
+
+//   return (
+//       <div className='cardbody'>
+//         <div className='ml-5 mr-5 md:mr-52 md:ml-52 md:pb-5'>
+//         {Social}
+//         </div> 
+//       </div>  
+//   )
+// }
