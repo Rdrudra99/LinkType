@@ -12,11 +12,9 @@ import SocialBox from '../components/SocialBox'
 
 export default function Home() {
   
-
-  
   if (typeof window === 'object') {
     //ANCHOR - CODE TO BE MODIFIED LATTER AFTER I GET DATA🐳
-    let red = "#FF5733";
+    let red = "#FF5733"; 
     let yellow = "#FFFF00";
     let darkGray = "#00000";
     let defult = "#FFFFFF";

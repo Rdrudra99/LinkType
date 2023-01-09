@@ -1,29 +1,27 @@
 import React from 'react'
 // React Icons🐳
-import {FaDocker,FaSass,FaCss3Alt,FaPython,FaGitAlt,FaReact} from 'react-icons/Fa';
+import {FaDocker,FaSass,FaCss3Alt,FaPython,FaJava,FaReact, FaYoutube} from 'react-icons/Fa';
 import { ListFormat } from 'typescript';
-
+import userdata from '../userData';
 
 const Skills = () => {
-  const icons=[<FaGitAlt/>,<FaSass/>,<FaPython/>, <FaReact/>,<FaCss3Alt/>,<FaDocker/>];
-  const itemList = [] ;
- 
-  
-  icons.forEach((item,index)=>{
-  itemList.push(<h1 className='text-[#6c757d] text-3xl p-2 pb-5'  key={index}>{item}</h1>);
-})
 
   return (
-    <div className='py-2'>
-        
-        <div className='flex justify-center items-center'>
-         {itemList}
+    <div className='pb-4'>
+    {
+           userdata.container.links.map((data)=>{
+              return(
+                  <span><a href={data.link}></a>{data.icons}</span>
+              )
+          })
+        }
         </div>
-    </div>
   )
 }
 
 export default Skills;
+
+
 
 
 {/* <h1 className='text-[#6c757d] text-3xl p-4'><DiVim/></h1>
@@ -36,3 +34,15 @@ export default Skills;
 <h1 className='text-[#6c757d] text-3xl p-4 hidden md:block'><AiFillGithub/></h1>
 <h1 className='text-[#6c757d] text-3xl p-4 hidden md:block'><FaSass/></h1>
 <h1 className='text-[#6c757d] text-3xl p-4 hidden md:block'><BsBootstrapReboot/></h1> */}
+
+
+
+// const Skills = () => {
+//   {
+//     userdata.container.links.map((data)=>{
+//         return(
+//             <h1>rudrar</h1>
+//         )
+//     })
+//   }
+// }

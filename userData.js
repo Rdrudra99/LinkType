@@ -1,7 +1,7 @@
 const userdata = {
     "profile": {
         "name": "wastik",
-        "bio": "this is me, I am a developer",
+        "bio": "This Is Me , I am a Self Taught developer",
         "website": "https://wastik",
         "avatar": "https://avatars.githubusercontent.com/u/60548408?v=4"
     },
@@ -9,19 +9,29 @@ const userdata = {
         "links": [
             {
                 "name": "Youtube",
-                "link": "https://www.youtube.com/"
+                "link": "https://www.youtube.com/",
+                "icons": "<FaDocker/>"
             },
             {
                 "name": "Instagram",
-                "link": "https://Instagram.com"
+                "link": "https://Instagram.com",
+                "icons": "Instagram"
             },
             {
                 "name": "LinkedIn",
-                "link": "https://Linkedin.com"
+                "link": "https://Linkedin.com",
+                "icons": "LinkedIn"
             },
             {
                 "name": "Github",
-                "link": "https://github.com"
+                "link": "https://github.com",
+                "icons": "Github"
+            },
+            {
+                "name": "Github",
+                "link": "https://github.com",
+                "icons": "Github"
+                
             }
         ],
         "bgcolor": "black",
@@ -54,3 +64,4 @@ const userdata = {
 
 
 export default userdata;
+
