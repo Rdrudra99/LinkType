@@ -9,28 +9,23 @@ const userdata = {
         "links": [
             {
                 "name": "Youtube",
-                "link": "https://www.youtube.com/",
-                "icons": "<FaDocker/>"
+                "link": "https://www.youtube.com/"
             },
             {
                 "name": "Instagram",
-                "link": "https://Instagram.com",
-                "icons": "Instagram"
+                "link": "https://Instagram.com"
             },
             {
                 "name": "LinkedIn",
-                "link": "https://Linkedin.com",
-                "icons": "LinkedIn"
+                "link": "https://Linkedin.com"
             },
             {
                 "name": "Github",
-                "link": "https://github.com",
-                "icons": "Github"
+                "link": "https://github.com"
             },
             {
                 "name": "Github",
-                "link": "https://github.com",
-                "icons": "Github"
+                "link": "https://github.com"
                 
             }
         ],
@@ -45,16 +40,19 @@ const userdata = {
     "backgroundColor": "white",
     "mediaIcon": [
         {
-            "name": "youtube",
-            "link": "https://youtube"
+            "name": "Reddit",
+            "link": "https://youtube.com",
+            "icons": "Reddit"
         },
                 {
-            "name": "Instagram",
-            "link": "https://instagram"
+            "name": "Twitter",
+            "link": "https://instagram.com",
+            "icons": "Twitter"
         },
                 {
-            "name": "LinkedIn",
-            "link": "https://linkedin"
+            "name": "Facebook",
+            "link": "https://linkedin",
+            "icons":"Facebook.com"
         }
     ],
     "createdAt": "2022-12-31T06:21:14.104Z",

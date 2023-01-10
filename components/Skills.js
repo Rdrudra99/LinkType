@@ -1,20 +1,50 @@
 import React from 'react'
 // React Icons🐳
-import {FaDocker,FaSass,FaCss3Alt,FaPython,FaJava,FaReact, FaYoutube} from 'react-icons/Fa';
+import {FaYoutube,FaInstagram,FaLinkedin, FaReddit, FaTwitch, FaTwitter, FaFacebook, FaTelegram, FaWhatsapp} from 'react-icons/Fa';
 import { ListFormat } from 'typescript';
 import userdata from '../userData';
+import {  } from "react-icons/bs";
 
 const Skills = () => {
 
-  return (
-    <div className='pb-4'>
+  return ( 
+    <div className='pb-4 flex justify-center'>
     {
-           userdata.container.links.map((data)=>{
+           userdata.mediaIcon.map((data)=>{
+            let dataIcons = <FaYoutube/>
+            switch (data.icons) {
+              case "Youtube":
+                dataIcons = <FaYoutube/>
+                break;
+              case "Instagram":
+                dataIcons = <FaInstagram/>
+                break;
+              case "LinkedIn":
+                dataIcons = <FaLinkedin/>
+                break;
+              case "Reddit":
+                dataIcons = <FaReddit/>
+                break;
+              case "Twitter":
+                dataIcons = <FaTwitter/>
+                break;
+              case "Facebook":
+                dataIcons = <FaFacebook/>
+                break;
+              case "Telegram":
+                dataIcons = <FaTelegram/>
+                break;
+              case "Whatsapp":
+                dataIcons = <FaWhatsapp/>
+                break;
+            }
+            
               return(
-                  <span><a href={data.link}></a>{data.icons}</span>
+                  <span className=''><a href={data.link}>{dataIcons}</a>
+                  </span>
               )
           })
-        }
+    }
         </div>
   )
 }

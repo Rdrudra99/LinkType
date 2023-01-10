@@ -10,19 +10,30 @@ import userdata from '../userData';
  *=============================================**/
 
 const SocialBox = () => {
+  
   return (
     <div className='cardbody'>
     <div className='ml-5 mr-5 md:mr-52 md:ml-52 md:pb-5'>
     
+    
     {
       userdata.container.links.map((data)=>{
+        // Function to count number of times the container box clicked
+        let click = 0;
+        const handleClick = (path) => {
+        
+          click++;
+          console.log(click);
+        };
+       
           return(
-            <div className='card bg-blue-400 mb-5 -lg drop-shadow-2xl h-12 text-white flex justify-center items-center rounded-full'>
-              <a href={data.link} className='text-md font-semibold tracking-widest'>{data.name}</a>
+            <div className='card bg-blue-400 mb-5 -lg drop-shadow-2xl h-12 text-white flex justify-center items-center rounded-full' >
+              <a  className='text-md font-semibold tracking-widest'onClick={() => handleClick("/posts")}>{data.name}</a>
             </div>
           )
       })
     }
+    
     
     </div>
     </div>
