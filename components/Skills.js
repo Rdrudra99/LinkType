@@ -2,17 +2,20 @@ import React from 'react'
 // React Icons🐳
 import {FaYoutube,FaInstagram,FaLinkedin, FaReddit, FaTwitch, FaTwitter, FaFacebook, FaTelegram, FaWhatsapp} from 'react-icons/Fa';
 import { ListFormat } from 'typescript';
+import { IconContext } from "react-icons";
+
 import userdata from '../userData';
-import {  } from "react-icons/bs";
 
 const Skills = () => {
 
   return ( 
+    // Use IconContext To Style The Icons IN LinkType 
     <div className='pb-4 flex justify-center'>
+    <IconContext.Provider value={{ color: "dark", className: "global-class-name" ,size:"1.5rem" }}>
     {
            userdata.mediaIcon.map((data)=>{
             let dataIcons = <FaYoutube/>
-            switch (data.icons) {
+            switch (data.name) {
               case "Youtube":
                 dataIcons = <FaYoutube/>
                 break;
@@ -40,11 +43,12 @@ const Skills = () => {
             }
             
               return(
-                  <span className=''><a href={data.link}>{dataIcons}</a>
+                  <span className='pl-2 pr-2'><a href={data.link}>{dataIcons}</a>
                   </span>
               )
           })
     }
+    </IconContext.Provider>
         </div>
   )
 }

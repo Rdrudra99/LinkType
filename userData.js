@@ -1,9 +1,9 @@
 const userdata = {
     "profile": {
-        "name": "wastik",
-        "bio": "This Is Me , I am a Self Taught developer",
+        "name": "@Rudra Narayan Boitei",
+        "bio": "|| 𝙵𝚛𝚘𝚗𝚝𝙴𝚗𝚍 𝙳𝚎𝚟𝚎𝚕𝚘𝚙𝚎𝚛  | | 𝙽𝚎𝚡𝚝 𝙹𝚜🦄",
         "website": "https://wastik",
-        "avatar": "https://avatars.githubusercontent.com/u/60548408?v=4"
+        "avatar": "https://user-images.githubusercontent.com/95564961/211481691-e9c95569-4dc1-45ae-8ff3-c96cb3c4b47e.jpg"
     },
     "container": {
         "links": [
@@ -24,8 +24,8 @@ const userdata = {
                 "link": "https://github.com"
             },
             {
-                "name": "Github",
-                "link": "https://github.com"
+                "name": "Facebook",
+                "link": "https://Facebook.com"
                 
             }
         ],
@@ -41,19 +41,19 @@ const userdata = {
     "mediaIcon": [
         {
             "name": "Reddit",
-            "link": "https://youtube.com",
-            "icons": "Reddit"
+            "link": "https://youtube.com"
+            
         },
                 {
             "name": "Twitter",
-            "link": "https://instagram.com",
-            "icons": "Twitter"
+            "link": "https://instagram.com"
+            
         },
                 {
             "name": "Facebook",
-            "link": "https://linkedin",
-            "icons":"Facebook.com"
-        }
+            "link": "https://linkedin"
+            
+        },
     ],
     "createdAt": "2022-12-31T06:21:14.104Z",
     "updatedAt": "2023-01-02T12:26:06.978Z",
