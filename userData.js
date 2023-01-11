@@ -1,7 +1,7 @@
 const userdata = {
     "profile": {
         "name": "@Rudra Narayan Boitei",
-        "bio": "|| 𝙵𝚛𝚘𝚗𝚝𝙴𝚗𝚍 𝙳𝚎𝚟𝚎𝚕𝚘𝚙𝚎𝚛  | | 𝙽𝚎𝚡𝚝 𝙹𝚜🦄",
+        "bio": "|| 𝙵𝚛𝚘𝚗𝚝𝙴𝚗𝚍 𝙳𝚎𝚟𝚎𝚕𝚘𝚙𝚎𝚛 | 𝙽𝚎𝚡𝚝 𝙹𝚜🦄",
         "website": "https://wastik",
         "avatar": "https://user-images.githubusercontent.com/95564961/211481691-e9c95569-4dc1-45ae-8ff3-c96cb3c4b47e.jpg"
     },
@@ -29,9 +29,10 @@ const userdata = {
                 
             }
         ],
-        "bgcolor": "black",
+        "bgcolor": "#a4ffa4",
         "shape": "reactangle",
-        "textcolor": "white"
+        "textcolor": "white",
+        "bordercolor" : "black",
     },
     "_id": "63afd4da36dbfc3f8b21a057",
     "name": "wastik",
@@ -52,14 +53,12 @@ const userdata = {
                 {
             "name": "Facebook",
             "link": "https://linkedin"
-            
         },
     ],
     "createdAt": "2022-12-31T06:21:14.104Z",
     "updatedAt": "2023-01-02T12:26:06.978Z",
     "__v": 3
 }
-
 
 export default userdata;
 
