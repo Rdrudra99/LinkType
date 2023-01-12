@@ -29,10 +29,12 @@ const userdata = {
                 
             }
         ],
-        "bgcolor": "#a4ffa4",
-        "shape": "reactangle",
+        "NameColor":"pink",
+        "bgcolor": "red",
+        "shape": "",
         "textcolor": "white",
         "bordercolor" : "black",
+        "footertextcolor" : "balck"
     },
     "_id": "63afd4da36dbfc3f8b21a057",
     "name": "wastik",
@@ -52,7 +54,7 @@ const userdata = {
         },
                 {
             "name": "Facebook",
-            "link": "https://linkedin"
+            "link": "https://linkedin.com"
         },
     ],
     "createdAt": "2022-12-31T06:21:14.104Z",
