@@ -26,34 +26,37 @@ const SocialBox = () => {
              **                            chnage style of card
              *------------------------------------------------------------------------**/
             function changeStyle() {
-              
-                if (userdata.container.shape == "round") {
-
-                  return "card rounded-full bg-[#F95E99] mb-5 -lg  h-14 flex justify-center items-center"
-  
-                }
-  
-                if (userdata.container.shape == "rectangle") {
-  
-                  return "card rounded-sm bg-[#F95E99] mb-5 -lg  h-14 flex justify-center items-center"
-                }
-                else {
-  
-                  return "card rounded-lg bg-[#F95E99] mb-5 -lg  h-14 flex justify-center items-center"
-  
-                }
-              }
               if (typeof window === 'object') {
-              let cardContainer = document.getElementById("cardContainer");
-              cardContainer.style.backgroundColor = "red";
+                var elements = document.getElementsByClassName('card');
+                for (var i = 0; i < elements.length; i++) {
+                  elements[i].style.backgroundColor = userdata.container.containerColor;
+                  elements[i].style.color = userdata.container.textColor;
+                  elements[i].style.border = userdata.container.borderColor;
+                  // elements[i].style.fontFamily = userdata.container.fontFamily;
+                }
               }
-            return (
-              
-              <div className={changeStyle()} id="cardContainer">
 
+              if (userdata.container.shape == "circle") {
+
+                return "card rounded-full  mb-5 -lg  h-14 flex justify-center items-center"
+
+              }
+
+              if (userdata.container.shape == "rectangle") {
+
+                return "card rounded-sm  mb-5 -lg  h-14 flex justify-center items-center"
+              }
+              else {
+
+                return "card rounded-lg  mb-5 -lg  h-14 flex justify-center items-center"
+
+              }
+            }
+
+            return (
+              <div className={changeStyle()}>
                 <h1><a className='font-semibold tracking-widest' href={data.link}>{data.name}</a></h1>
               </div>
-
             )
           })
         }

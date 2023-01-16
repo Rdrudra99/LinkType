@@ -1,6 +1,7 @@
 import React from 'react'
 // React Icons🐳
 import {FaYoutube,FaInstagram,FaLinkedin, FaReddit, FaTwitch, FaTwitter, FaFacebook, FaTelegram, FaWhatsapp} from 'react-icons/Fa';
+import { FcStart, FcReddit} from "react-icons/fc";
 import { ListFormat } from 'typescript';
 import { IconContext } from "react-icons";
 

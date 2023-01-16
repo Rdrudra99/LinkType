@@ -1,65 +1,63 @@
 const userdata = {
+   
     "profile": {
-        "name": "@Rudra Narayan Boitei",
+        "name": "@rnb rudra",
+        "nameColor": "black",
         "bio": "|| 𝙵𝚛𝚘𝚗𝚝𝙴𝚗𝚍 𝙳𝚎𝚟𝚎𝚕𝚘𝚙𝚎𝚛 | 𝙽𝚎𝚡𝚝 𝙹𝚜🦄",
-        "website": "https://wastik",
+        "bioColor": "black",
         "avatar": "https://user-images.githubusercontent.com/95564961/211481691-e9c95569-4dc1-45ae-8ff3-c96cb3c4b47e.jpg"
     },
     "container": {
         "links": [
             {
-                "name": "Youtube",
-                "link": "https://www.youtube.com/"
-            },
-            {
                 "name": "Instagram",
-                "link": "https://Instagram.com"
+                "link": "https://instagram.com"
             },
             {
-                "name": "LinkedIn",
-                "link": "https://Linkedin.com"
+                "name": "Youtube",
+                "link": "https://Youtube.com"
+            },
+            {
+                "name": "FaceBook",
+                "link": "https://Facebook.com"
+            },
+            {
+                "name": "Twitter",
+                "link": "https://Twitter.com",
             },
             {
                 "name": "Github",
-                "link": "https://github.com"
+                "link": "https://Twitter.com",
             },
-            {
-                "name": "Facebook",
-                "link": "https://Facebook.com"
-                
-            }
         ],
-        "NameColor":"pink",
-        "bgcolor": "red",
-        "shape": "",
-        "textcolor": "white",
-        "bordercolor" : "black",
-        "footertextcolor" : "balck"
+        "borderColor": "1px solid black",
+        "containerColor": "#deccff",
+        "shape": "circle",
+        "textColor": "black",
+        
     },
-    "_id": "63afd4da36dbfc3f8b21a057",
+    "_id": "63be40f4503e581a9b58141d",
     "name": "wastik",
     "email": "wastik@gmail.com",
-    "password": "$2b$10$o21hcnEEJlUXn2Dn7xkSr.KxJDeM4hFQC0wyNBTCTCHNJtRa7lsvG",
-    "backgroundColor": "white",
+    "password": "$2b$10$MqXrFZP.uvQcsYyeiBbJ9.GTAWVLsfmtDr8jR/uQD3NHPouwcw1vi",
+    "backgroundColor": "#b892ff",
+    "fontFamily":"Poppins, sans-serif",
+    "website": "",
     "mediaIcon": [
         {
-            "name": "Reddit",
+            "name": "Youtube",
             "link": "https://youtube.com"
-            
         },
-                {
-            "name": "Twitter",
-            "link": "https://instagram.com"
-            
+        {
+            "name": "Reddit",
+            "link": "https://reddit.com"
         },
-                {
-            "name": "Facebook",
-            "link": "https://linkedin.com"
+        {
+            "name": "LinkedIn",
+            "link": "https://Linkedin.com"
         },
     ],
-    "createdAt": "2022-12-31T06:21:14.104Z",
-    "updatedAt": "2023-01-02T12:26:06.978Z",
-    "__v": 3
+    "createdAt": "2023-01-11T04:54:12.386Z"
 }
 
 export default userdata;
