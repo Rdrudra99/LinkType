@@ -9,8 +9,7 @@ const Footer = () => {
 
 
   return (
-    
-    
+  
       <div className='text-center py-5 flex justify-center items-center footer'>
       <p id='footerText' className='text-sm pr-2'>Made With ❤️ By</p>
         <span className='text-[#F95E99]'>

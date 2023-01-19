@@ -1,7 +1,7 @@
 const userdata = {
-   
+    
     "profile": {
-        "name": "@rnb rudra",
+        "name": "Rudra Narayan Boitei",
         "nameColor": "black",
         "bio": "|| 𝙵𝚛𝚘𝚗𝚝𝙴𝚗𝚍 𝙳𝚎𝚟𝚎𝚕𝚘𝚙𝚎𝚛 | 𝙽𝚎𝚡𝚝 𝙹𝚜🦄",
         "bioColor": "black",
@@ -11,37 +11,46 @@ const userdata = {
         "links": [
             {
                 "name": "Instagram",
-                "link": "https://instagram.com"
+                "link": "https://instagram.com",
+                "status": "true"
             },
             {
                 "name": "Youtube",
-                "link": "https://Youtube.com"
+                "link": "https://Youtube.com",
+                "status": "true"
             },
             {
                 "name": "FaceBook",
-                "link": "https://Facebook.com"
+                "link": "https://Facebook.com",
+                "status": "true"
             },
             {
                 "name": "Twitter",
                 "link": "https://Twitter.com",
+                "status": "true"
             },
             {
                 "name": "Github",
                 "link": "https://Twitter.com",
+                "status": "true"
+            },
+            {
+                "name": "Github",
+                "link": "https://Twitter.com",
+                "status": "true"
             },
         ],
         "borderColor": "1px solid black",
         "containerColor": "#deccff",
         "shape": "circle",
         "textColor": "black",
-        
     },
     "_id": "63be40f4503e581a9b58141d",
     "name": "wastik",
     "email": "wastik@gmail.com",
     "password": "$2b$10$MqXrFZP.uvQcsYyeiBbJ9.GTAWVLsfmtDr8jR/uQD3NHPouwcw1vi",
     "backgroundColor": "#b892ff",
-    "fontFamily":"Poppins, sans-serif",
+    "fontFamily":"Karla",
     "website": "",
     "mediaIcon": [
         {

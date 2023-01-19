@@ -1,7 +1,8 @@
-import React from "react";
+import React ,{useState,useEffect}from "react";
 import Image from "next/image";
 import { HiDownload } from "react-icons/Hi";
 import userData from "../userData";
+
 
 
 
@@ -14,6 +15,8 @@ const Header = () => {
   var elements = document.getElementById('bio');
   // elements.style.color = userData.profile.bioColor;
   }
+
+
 
   return (
     <div className="md:w-12/12 md:px-52 md:py-[80] py-5  mx-auto flex-col">
